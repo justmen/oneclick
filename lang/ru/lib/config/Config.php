@@ -1,0 +1,24 @@
+<?php
+$MESS["LIGACOM_BUYONECLICK_SETTING_ACTIVE"] = "Активно";
+$MESS["LIGACOM_BUYONECLICK_SETTING_ACTIVE_DESC"] = "Активно";
+$MESS["LIGACOM_BUYONECLICK_SETTING_FORMTITLE_NAME"] = "Заголовок формы";
+$MESS["LIGACOM_BUYONECLICK_SETTING_FORMTITLE_NAME_DESC"] = "Используется, когда вам нужно изменить заголовок формы на свой";
+$MESS["LIGACOM_BUYONECLICK_SETTING_BUTTONTITLE_NAME"] = "Подпись кнопки в форме";
+$MESS["LIGACOM_BUYONECLICK_SETTING_BUTTONTITLE_NAME_DESC"] = "Подпись кнопки в форме (необязательно)";
+$MESS["LIGACOM_BUYONECLICK_SETTING_PERSON_TYPE"] = "Тип плательщика";
+$MESS["LIGACOM_BUYONECLICK_SETTING_PERSON_TYPE_DESC"] = "Тип плательщика для заказа";
+$MESS["LIGACOM_BUYONECLICK_SETTING_ORDER_TITLE_CONSENT"] = "Запрос согласия пользователя";
+$MESS["LIGACOM_BUYONECLICK_SETTING_ACTIVE_CONSENT"] = "Выводить";
+$MESS["LIGACOM_BUYONECLICK_SETTING_ACTIVE_CONSENT_DESC"] = "Будет выведено форму подтверждения персональных данных";
+$MESS["LIGACOM_BUYONECLICK_SETTING_ID_CONSENT"] = "Соглашение";
+$MESS["LIGACOM_BUYONECLICK_SETTING_AUTO_SAVE_CONSENT"] = "Сохранять автоматически факт согласия";
+$MESS["LIGACOM_BUYONECLICK_SETTING_AUTO_SAVE_CONSENT_DESC"] = "Сохранять автоматически факт согласия";
+$MESS["LIGACOM_BUYONECLICK_SETTING_ORDER_NOTES_CONSENT"] = "Если у Вас еще нет соглашения создайте его по <a href=\"/bitrix/admin/agreement_admin.php\" target=\"_blank\">ссылке</a>";
+$MESS["LIGACOM_BUYONECLICK_SETTING_IS_CHECKED_CONSENT"] = "Чекбокс согласия проставлен по умолчанию";
+$MESS["LIGACOM_BUYONECLICK_SETTING_IS_CHECKED_CONSENT_DESC"] = "Галочка в форме, подтверждающая согласие пользователя на обработку данных";
+$MESS['LIGACOM_BUYONECLICK_SETTING_RECAPTHA_TITLE'] = 'Настройки google recaptha 3';
+$MESS["LIGACOM_BUYONECLICK_SETTING_ORDER_TITLE"] = "Поля формы";
+$MESS["LIGACOM_BUYONECLICK_SETTING_PERSON_FIELD_NAME"] = "Имя";
+$MESS["LIGACOM_BUYONECLICK_SETTING_PERSON_FIELD_PHONE"] = "Телефон";
+$MESS["LIGACOM_BUYONECLICK_SETTING_PERSON_FIELD_MAIL"] = "Почта";
+$MESS["LIGACOM_BUYONECLICK_SETTING_PERSON_FIELD_COMMENT"] = "Комментарий";

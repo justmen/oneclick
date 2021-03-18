@@ -1,0 +1,91 @@
+.ligacom_oneclick-content {
+    display: flex;
+    width: calc(100% - 20px)
+}
+.ligacom-modal__title {
+    margin: -10px 0 20px 10px;
+    text-align: left;
+}
+.ligacom_oneclick-content > img {
+    width: 20%;
+    margin: 0 5px;
+}
+.ligacom_oneclick-content > form {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+    align-items: end;
+}
+.ligacom_oneclick-content > form input:required + .ligacom-oneclick-form__help-text::before {
+    content: '*Required';
+}
+.ligacom_oneclick-content > form > input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: #eaeaea;
+    padding: 5px 10px;
+}
+
+.ligacom_oneclick-content > form > button {
+    padding: 5px 20px;
+    background-color: #3215ff;
+    border: 0;
+    color: #fff;
+    border-radius: 2px;
+}
+.ligacom-overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+}
+.ligacom-modal {
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+}
+
+.ligacom-modal.active,
+.ligacom-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+.ligacom-modal__cross {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: #444;
+    cursor: pointer;
+}
+
+.ligacom_oneclick_btn {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #414b52;
+    margin: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
